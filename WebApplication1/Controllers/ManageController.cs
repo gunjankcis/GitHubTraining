@@ -42,6 +42,7 @@ namespace WebApplication1.Controllers
         {
             get
             {
+                var test = 1;
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
             private set

@@ -29,7 +29,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult LoginScreen()
         {
-
+            ViewBag.SuccessMessage = "This is a login Screen";
             return View();
         }
     }

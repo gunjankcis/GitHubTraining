@@ -27,7 +27,7 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public ActionResult LoginScreen()
+        public ActionResult Login()
         {
             ViewBag.SuccessMessage = "This is a login Screen";
             return View();
